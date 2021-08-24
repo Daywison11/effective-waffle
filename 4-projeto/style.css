@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Lexend+Deca:wght@700&display=swap');
+
+.containermeu{
+    display: flex;
+    flex-direction: row;
+    justify-content:  space-between;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:white;
+    overflow: hidden;
+}
+.containermeu h5{
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+@media (max-width: 800px){
+    .containermeu{
+        display: block;
+        margin: auto;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    
+}
